@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "393485141970",
+    "firebase_url": "https://rpg-pro-66ef4-default-rtdb.firebaseio.com",
+    "project_id": "rpg-pro-66ef4",
+    "storage_bucket": "rpg-pro-66ef4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393485141970:android:fa1d2f77a026b10d986a0b",
+        "android_client_info": {
+          "package_name": "com.example.rpg_pro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIurxrhYKeZjjq8zh-qotitDvZcDpA-YA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393485141970:android:89096c6b5356bc68986a0b",
+        "android_client_info": {
+          "package_name": "com.example.rpg_pro_phone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIurxrhYKeZjjq8zh-qotitDvZcDpA-YA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

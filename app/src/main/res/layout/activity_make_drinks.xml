@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:outlineAmbientShadowColor="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/help_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#DCDCDC"
+                android:fontFamily="@font/bmjua"
+                android:text="도움말"
+                android:textColor="#777777"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/back2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#0061A8"
+                android:fontFamily="@font/bmjua"
+                android:text="BACK"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textViewDrinkA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmjua"
+                    android:text="소주"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_marginBottom="4dp"/>
+
+                <SeekBar
+                    android:id="@+id/seekBarDrinkA"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:max="10"
+                    android:min="0"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/custom_seekbar_normal"
+                    android:splitTrack="false"
+                    android:thumb="@drawable/custom_thumb_normal"
+                    android:rotation="270" />
+
+                <TextView
+                    android:id="@+id/st1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmjua"
+                    android:text="0"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textViewDrinkB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmjua"
+                    android:text="맥주"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_marginBottom="4dp"/>
+
+                <SeekBar
+                    android:id="@+id/seekBarDrinkB"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:max="10"
+                    android:min="0"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/custom_seekbar_normal"
+                    android:splitTrack="false"
+                    android:thumb="@drawable/custom_thumb_normal"
+                    android:rotation="270" />
+
+                <TextView
+                    android:id="@+id/st2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmjua"
+                    android:text="0"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textViewDrinkC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmjua"
+                    android:text="사이다"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_marginBottom="4dp"/>
+
+                <SeekBar
+                    android:id="@+id/seekBarDrinkC"
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:max="10"
+                    android:min="0"
+                    android:progress="0"
+                    android:progressDrawable="@drawable/custom_seekbar_normal"
+                    android:splitTrack="false"
+                    android:thumb="@drawable/custom_thumb_normal"
+                    android:rotation="270" />
+
+                <TextView
+                    android:id="@+id/st3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bmjua"
+                    android:text="0"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:layout_marginTop="4dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/recipe"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#0061A8"
+                android:fontFamily="@font/bmjua"
+                android:text="추천 레시피"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/ai_recipe"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#0061A8"
+                android:fontFamily="@font/bmjua"
+                android:text="AI 추천 레시피"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/buttonSave"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="#0061A8"
+                android:fontFamily="@font/bmjua"
+                android:gravity="center"
+                android:text="완료"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bmjua"
+                android:text="단위 = 0.5잔\nmaximum = 5잔"
+                android:textColor="#777777"
+                android:textSize="14sp"
+                android:gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="#777777"
+        android:indeterminateTintMode="src_in"
+        android:visibility="gone" />
+
+</RelativeLayout>

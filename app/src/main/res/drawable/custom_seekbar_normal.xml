@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Track (inactive part) -->
+    <item>
+        <shape android:shape="rectangle">
+            <!-- 시크바 선 굵기 : 길이 10dp -->
+            <stroke android:width="6dp" android:color="#3C486B" />
+            <!-- 시크바 내용 색상 -->
+            <solid android:color="#F0F0F0"/>
+            <!-- 테두리 둥글게 설정 -->
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+    <!-- Foreground Track (active part) -->
+    <item android:id="@+id/foreground_progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <!-- 시크바 내용 색상 -->
+                <solid android:color="#2978B5"/>
+                <!-- 테두리 둥글게 설정 -->
+                <corners android:radius="10dp"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

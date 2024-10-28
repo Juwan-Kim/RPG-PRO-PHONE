@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/rounded_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:fontFamily="@font/bmjua"
+        android:gravity="center"
+        android:padding="20dp"
+        android:background="@drawable/rounded_textview"
+        android:text="잔 단위는  소주 잔 1잔 (50ml)기준입니다.\n 원하시는 비율로 음료제조가 가능합니다. 또한, 추천 레시피 버튼을 클릭하시면, 저희가 추천하는 레시피로 색다른 레시피로 랜폭기를 즐기실 수 있습니다."
+        android:textSize="19sp"
+        android:textColor="#777777"
+        android:lineSpacingExtra="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#262626"
+            android:fontFamily="@font/bmjua"
+            android:text="숙지하였습니다."
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

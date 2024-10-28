@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RPG_PHONE</string>
+
+    <!-- 네비게이션 드로어 문자열 리소스 추가 -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
